@@ -54,3 +54,8 @@ how to persist the date on the local machine
 
 docker run -v /your/dir:/var/lib/mysql -d mysql:5.7
 It will ensure that any data written to the /var/lib/mysql directory inside the container is actually written to the /your/dir directory on the host system. This ensures that the data is not lost when the container is restarted.
+
+
+
+
+
